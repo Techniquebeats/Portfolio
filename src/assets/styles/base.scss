@@ -6,13 +6,36 @@
   &:before {
     box-sizing: border-box;
   }
+  background: red;
 }
+
 html,
 body {
     overflow-x: hidden;
 }
-.block {
-    height: 50px;
-    width: 200vw;
-    background: red;
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit ;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+img,
+video,
+canvas,
+svg {
+    max-width: 100%;
 }
