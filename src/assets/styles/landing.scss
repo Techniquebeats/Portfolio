@@ -5,4 +5,27 @@
     background: black;
     color: white;
     overflow: hidden;
+    .header {
+        position: absolute;
+        top: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        &__wrap {
+            padding: 10pi;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 60vw;
+        }
+        &__left{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            & li{
+                font-style: 18px;
+                font-weight: 700;
+            }
+
+        }
+    }
 }
