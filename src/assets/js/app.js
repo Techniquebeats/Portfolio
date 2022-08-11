@@ -1,3 +1,4 @@
+import gsap from "gsap";
 const bar = document.querySelector(".loading__bar--inner");
 const counter_num= document.querySelector(".loading__counter--number");
 let c = 0;
