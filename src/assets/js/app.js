@@ -4,4 +4,7 @@ let c = 0;
 let barInterval = setInterval(()=>{
     bar.style.width=c+"%";
     c++;
-}, 500);
+    if(c===100){
+        clearInterval(barInterval);
+    }
+}, 50);
