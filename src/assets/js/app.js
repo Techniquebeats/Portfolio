@@ -20,8 +20,8 @@ let barInterval = setInterval(()=>{
         });
         gsap.to(".loading__box", {
             duration:1,
-            height: "500px",
-            borderRadius: "50%",
+            height: "365px",
+            borderRadius: "90%",
         });
         gsap.to(".loading__svg", {
             duration:10,
