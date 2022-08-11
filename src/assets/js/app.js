@@ -33,6 +33,18 @@ let barInterval = setInterval(()=>{
             duration:1,
             border: "none",
         });
+        gsap.to(".loading", {
+            delay: 2,
+            duration:2,
+            //zIndex:1
+            background: "#FFF",
+            opacity:0.5,
+        });
+        gsap.to(".loading__svg", {
+            delay: 2,
+            duration:100,
+            rotate: "360deg",
+        });
     }
 }, 18);
 
