@@ -98,4 +98,16 @@
             color: $grey-colour;
         }
     }
+    &__width_animation{
+        animation: width_animation 1s;
+        @keyframes width_animation {
+            0% {
+                width: 85%;
+            }
+            100% {
+                width: 250px;
+            }
+            
+        }
+    }
 }
