@@ -29,8 +29,10 @@ let barInterval = setInterval(()=>{
             rotate: "360deg",
         });
         gsap.to(".loading__box", {
-            delay: 2,
+            // delay: 0.4,
             duration:1,
+            height: "350px",
+            borderRadius: "50%",
             border: "none",
         });
         gsap.to(".loading", {
