@@ -23,6 +23,7 @@
             &{width: 90vw;
             }
         }
+
     }
     &__bar{
         width: 90%;
@@ -50,6 +51,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @media (max-width: 355px) {
+            &{font-size: 17px;
+            }
+        }
         &--dot {
             width: 15px;
             height: 15px;
