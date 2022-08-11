@@ -9,5 +9,11 @@ let barInterval = setInterval(()=>{
     c++;
     if(c===101){
         clearInterval(barInterval);
+        gsap.to(".loading__bar", {
+            duration:5,
+            rotate:"90deg",
+            left: "1000%",
+        });
     }
 }, 18);
+
