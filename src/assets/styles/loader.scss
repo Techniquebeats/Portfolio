@@ -62,5 +62,14 @@
                 }
             }
         }
+        &--border{
+            width: 85%;
+            height: 1px;
+            background: grey;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
     }
 }
