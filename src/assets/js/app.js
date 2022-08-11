@@ -28,6 +28,11 @@ let barInterval = setInterval(()=>{
             opacity: 1,
             rotate: "360deg",
         });
+        gsap.to(".loading__box", {
+            delay: 2,
+            duration:1,
+            border: "none",
+        });
     }
 }, 18);
 
