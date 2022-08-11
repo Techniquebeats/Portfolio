@@ -9,12 +9,12 @@ let barInterval = setInterval(()=>{
     c++;
     if(c===101){
         clearInterval(barInterval);
-        gsap.to(".loading__bar", {
+        gsap.to(".loading__bar", {                                  //loading bar fly away to the right side
             duration:5,
             rotate:"90deg",
             left: "1000%",
         });
-        gsap.to(".loading__text,.loading__counter", {
+        gsap.to(".loading__text,.loading__counter", {               //text & numbers disappear
             duration:0.5,
             opacity:0,
         });
