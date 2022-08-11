@@ -23,6 +23,11 @@ let barInterval = setInterval(()=>{
             height: "500px",
             borderRadius: "50%",
         });
+        gsap.to(".loading__svg", {
+            duration:10,
+            opacity: 1,
+            rotate: "360deg",
+        });
     }
 }, 18);
 
