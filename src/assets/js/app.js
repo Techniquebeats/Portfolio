@@ -14,10 +14,9 @@ let barInterval = setInterval(()=>{
             rotate:"90deg",
             left: "1000%",
         });
-        gsap.to(".loading__text", {
-            duration:5,
-            rotate:"90deg",
-            left: "1000%",
+        gsap.to(".loading__text,.loading__counter", {
+            duration:1,
+            opacity:0,
         });
     }
 }, 18);
