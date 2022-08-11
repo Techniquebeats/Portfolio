@@ -9,4 +9,4 @@ let barInterval = setInterval(()=>{
     if(c===101){
         clearInterval(barInterval);
     }
-}, 50);
+}, 18);
