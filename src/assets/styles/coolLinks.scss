@@ -54,4 +54,15 @@
         width: 100%;
         height: 100%;
     }
+    &:before{
+        content: "";
+        background: white;
+        clip-path: ellipse(40% 26% at 50% 50%);  //https://bennettfeely.com/clippy/
+        transition: clip-path 0.5s;
+    }
+    &:hover::before{
+        clip-path: ellipse(55% 30% at 62% 39%);
+
+
+    }
 }
