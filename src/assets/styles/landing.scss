@@ -37,6 +37,11 @@
                 display:none;
             }
         }
+        @media (max-width: 350px){
+            &__ho{
+                display:none;
+            }
+        }
     }
 }
 .centered_link {
