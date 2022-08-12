@@ -27,7 +27,7 @@
             }
 
         }
-        @media (max-width: 1200px){
+        @media (max-width: 1200px){      
             &__wrap{
                 width: 100vp;
             }
@@ -37,7 +37,13 @@
                 display:none;
             }
         }
-        @media (max-width: 350px){
+        @media (max-width: 375px){
+            & {
+                left: 36%;
+            }
+            &__wrap{
+             gap: 20%;   
+            }
             &__ho{
                 display:none;
             }
