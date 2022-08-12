@@ -14,7 +14,7 @@
         background: currentColor;
         transform: scale3d(0, 1, 1);
         transform-origin: right;
-        transition: transform 0.4s ease-in-out;
+        transition: transform 0.35s ease-in-out;
     }
     &:after {
         content: attr(data-text);
@@ -24,7 +24,7 @@
         transform: translate3d(150%, 0, 0);
     }
     & span{
-        transition: transform 0.4s ease-in-out;
+        transition: transform 0.35s ease-in-out;
     }
     &:hover:before{
         transform: scale3d(1, 1, 1);
@@ -32,7 +32,7 @@
     }
     &:hover::after{
         transform: translate3d(0, 0, 0);
-        transition: transform 0.4s ease-in-out;
+        transition: transform 0.35s ease-in-out;
     }
     &:hover span{
         transform: translate3d(-150%, 0, 0);
