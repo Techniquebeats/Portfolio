@@ -27,9 +27,14 @@
             }
 
         }
-        @media (max: width 1200px){
+        @media (max-width: 1200px){
             &__wrap{
                 width: 100vp;
+            }
+        }
+        @media (max-width: 650px){
+            &__sm{
+                display:none;
             }
         }
     }
