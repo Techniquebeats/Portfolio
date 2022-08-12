@@ -14,7 +14,7 @@
         background: currentColor;
         transform: scale3d(0, 1, 1);
         transform-origin: right;
-        transition: transform 0.35s cubic-bezier(.75,0,.77,.71);
+        transition: transform 0.35s cubic-bezier(.75,0,.77,.71); //https://cubic-bezier.com/
     }
     &:after {
         content: attr(data-text);
