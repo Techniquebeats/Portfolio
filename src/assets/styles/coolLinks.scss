@@ -14,7 +14,7 @@
         background: currentColor;
         transform: scale3d(0, 1, 1);
         transform-origin: right;
-        transition: transform 0.35s cubic-bezier(.75,0,.77,.71); //https://cubic-bezier.com/
+        transition: transform 0.35s cubic-bezier(0.5,0.5,0.3,1); //https://cubic-bezier.com/
     }
     &:after {
         content: attr(data-text);
@@ -24,7 +24,7 @@
         transform: translate3d(150%, 0, 0);
     }
     & span{
-        transition: transform 0.35s cubic-bezier(.75,0,.77,.71);
+        transition: transform 0.35s cubic-bezier(0.5,0.5,0.3,1);
     }
     &:hover:before{
         transform: scale3d(1, 1, 1);
@@ -32,7 +32,7 @@
     }
     &:hover::after{
         transform: translate3d(0, 0, 0);
-        transition: transform 0.35s cubic-bezier(.75,0,.77,.71);
+        transition: transform 0.35s cubic-bezier(0.5,0.5,0.3,1);
     }
     &:hover span{
         transform: translate3d(-150%, 0, 0);
