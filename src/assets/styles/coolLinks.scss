@@ -116,3 +116,43 @@
         }
     }}
 }
+.coolCircleEyeButton{
+    position: relative;
+    display: inline-block;
+    .textcircle{
+        display: block;
+        width: 250px;
+        animation: rotate 8s linear infinite;
+        text {
+            font-size: 32px;
+            text-transform: uppercase;
+            fill: black;
+        }
+    }
+    @keyframes rotate {
+        to{
+        transform: rotate(-360deg);
+        }
+    }
+    &:hover{
+        text {
+            font-weight: 500;
+        }
+    }
+    .eye{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        &__outer,
+        &__inner,
+        &__lashes--up,
+        &__lashes--down{
+            stroke: black;
+            fill: none;
+            stroke-width: 1.5px;
+        }
+    }
+}
