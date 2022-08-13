@@ -1,0 +1,22 @@
+.projects{
+    &__header{
+        font-size: 60px;
+        font-style: italic;
+        padding-bottom: 10px;
+    }
+}
+
+.project{
+    &__header{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 1rem;
+        font-family: sans-serif;
+        & span {
+            border-top: 1px solid black;
+            padding: 1rem;
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+}
