@@ -19,4 +19,15 @@
             text-align: center;
         }
     }
+    &__infos{
+        margin-top: 1rem;
+        &--name{
+            position: relative;
+            font-size: 3vw;
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            font-weight: 400;       
+        }
+    }
 }
