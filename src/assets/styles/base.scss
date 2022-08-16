@@ -69,3 +69,13 @@ $green-color:rgb(11, 206, 11);
 $orange-color: #D9B47D;
 $blue-color: #B1C9E1;
 
+/*---- Predifined Classes-----------------*/
+.sction{
+    padding: 1rem;
+    overflow: hidden;
+    min-height: 100vh;
+    padding-top: 5rem;
+    @media (min-width: 650px){
+        padding: 5rem;
+    }
+}
