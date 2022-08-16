@@ -64,3 +64,54 @@
         gap: 1rem;
     }
 }
+
+@media (max-width: 1350px){
+    .projects{
+        padding: 3rem;
+    }
+    .project__img{
+        width: 74vw;
+        right: 5rem;
+    }
+    .preoject__infos--name{
+        font-size: 38px;
+    }
+    .preoject.coolCircleEyeButton{
+        transform: translate(-14rem, -3rem);
+    }
+    
+}
+
+@media (max-width: 740px){
+    .projects{
+        padding: 1rem;
+    }
+    .project__tags{
+        flex-direction: row ;
+        top: 0;
+        left: 0;
+    }
+    .preoject__infos--name{
+        font-size: 35px;
+        span {
+          display: none;
+        }
+    }
+    .project__img{
+        width: 85vw;
+        right: 3rem;
+    }
+}
+
+@media (max-width: 440px){
+    .preoject.coolCircleEyeButton{
+        transform: translate(0);
+    }
+    .project__tags{
+        gap: 6px;
+        font-size: 14px;
+    }
+    .preoject__header span{
+        font-size: 25px;
+    }
+}
