@@ -17,9 +17,9 @@
         position: relative;
         width: 500px;
         height: 200px;
-        border: 3px solid $light-grey-color;
-        border-top: 3px solid $medium-grey-color;
-        border-bottom: 3px solid $dark-grey-color;
+        border: 3px solid $loading-border;
+        border-top: 3px solid $loading-border-top;
+        border-bottom: 3px solid $loading-border-bottom;
         @media (max-width:600px) {             
             &{width: 85vw;
             }
@@ -33,19 +33,19 @@
         top: 50%;
         left: 50%;
         transform: translateX(-50%);
-        background: $grey-color;
+        background: $loading-bar;
         border-radius: 2px;
         &--inner{
             height: 100%;
             width: 0;
             border-radius: 2px;
-            background: $black-color;
+            background: $loading-bar-inner;
         }
 
     }
     &__text {
         position: relative;
-        color: $black-color;
+        color: $loading-text;
         padding: 1rem;
         font-size: 20px;
         font-weight: 700;
@@ -61,7 +61,7 @@
             height: 15px;
             margin: 0 3px;
             border-radius: 50%;
-            background: $black-color;
+            background: $loading-text-dot;
             animation: pulse 1s infinite;
             @keyframes pulse {
                 from{
@@ -76,7 +76,7 @@
         &--border{
             width: 85%;
             height: 1px;
-            background: $grey-color;
+            background: $loading-text-border;
             position: absolute;
             bottom: 0;
             left: 50%;
@@ -87,7 +87,7 @@
         position: absolute;
         top: 70%;
         left: 0;
-        color: $black-color;
+        color: $loading-text-counters;
         font-size: 20px;
         font-weight: 700;
         width: 100%;
@@ -96,7 +96,7 @@
         justify-content: space-between;
         padding: 10px;
         &--number{
-            color: $grey-color;
+            color: $loading-text-counters-number;
         }
     }
     &__width_animation{

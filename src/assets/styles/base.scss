@@ -55,14 +55,14 @@ ul {
     list-style: none;
 }
 /*----Variables---*/
-$applebg-color: #F2F2F2;
-$light-grey-color: rgba(128, 128, 128, 0.856);
-$medium-grey-color: rgba(128, 128, 128, 0.616);
-$dark-grey-color: rgba(128, 128, 128, 0.598);
 $grey-color: grey;
 $black-color: black;
 $white-color: white;
 $red-color: red;
+$applebg-color: #F2F2F2;
+$light-grey-color: rgba(128, 128, 128, 0.856);
+$medium-grey-color: rgba(128, 128, 128, 0.616);
+$dark-grey-color: rgba(128, 128, 128, 0.598);
 // $blue-color: #2196f3;
 $green-color:rgb(11, 206, 11);
 // $orange-color: #f44336;
@@ -71,6 +71,24 @@ $blue-color: #B1C9E1;
 $dark-blue-color: #060b11;
 $box-shaddow-blue1: rgba(31, 38, 135, 0.27);
 $box-shaddow-blue2: rgba(31, 38, 135, 0.67);
+/*---Loading---*/
+$loading-border: rgba(128, 128, 128, 0.856);
+$loading-border-top: rgba(128, 128, 128, 0.616);
+$loading-border-bottom: rgba(128, 128, 128, 0.598);
+$loading-bar: grey;
+$loading-bar-inner: black;
+$loading-text: black;
+$loading-text-dot: black;
+$loading-text-border: grey;
+$loading-text-counters: black;
+$loading-text-counters-number: grey;
+/*---Landing---*/
+$landing-background-color: black;
+$landing-header-font-color: white;
+$landing-font-color: white;
+
+
+
 
 /*---- Predifined Classes-----------------*/
 .sction{
